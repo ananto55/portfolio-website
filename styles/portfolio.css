@@ -74,12 +74,69 @@ nav a {
 /* header related style */
 .header {
 
-    background-color: #FFF8F3;
-    padding: 30px 30px 30px 150px;
+
+
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 500px;
+}
+
+.banner-g {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-t {
+    font-size: 85px;
+
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.down {
+    margin-top: 5px;
+}
+
+.banner-c {
+    width: 500px;
+}
+
+/* about section style */
+.about {
+    padding: 130px;
+    
+ margin: 130px 0px;
+    
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-des {
+    
+    text-align: center;
+    color: var(--dark-03, #757575);
+    text-align: center;
+    
+    font-size: 18px;
+    
+    font-weight: 400;
+   
+
 }
