@@ -1,0 +1,22 @@
+/*  common shared styles*/
+body {
+
+    font-family: 'Open Sans', sans-serif;
+}
+header>nav>h3{
+    color: #181818;
+
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+/* nav releted styles*/
+nav {
+    display: flex;
+    align-items: center;
+}
+.marry{
+    color:#FD6E0A;
+}
